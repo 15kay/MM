@@ -98,7 +98,7 @@
             <li><strong>On-Demand Assistance:</strong> Quick response to IT issues for minimal downtime.</li>
             <li><strong>Tailored Solutions:</strong> Customized IT support for individual and business needs.</li>
         </ul>
-        <button class="assest/contact.html">Contact Us</button>
+        <button class="buy-now" onclick="contact()">Contact US</button>
     </div>
   
     <!-- ICT Training Card -->
@@ -111,7 +111,7 @@
             <li><strong>Interactive Learning:</strong> Hands-on exercises to enhance understanding.</li>
             <li><strong>Certification:</strong> Gain recognized qualifications to advance your career.</li>
         </ul>
-        <button class="assest/contact.html">Contact Us</button>
+        <button class="buy-now" onclick="contact()">Contact US</button>
     </div>
   </div>
   
@@ -126,7 +126,7 @@
             <li><strong>Advanced Reporting:</strong> Automate and optimize your reporting processes.</li>
             <li><strong>Hands-On Projects:</strong> Practice with real-world datasets.</li>
         </ul>
-        <button class="assest/contact.html">Contact Us</button>
+        <button class="buy-now" onclick="contact()">Contact Us</button>
     </div>
   
     <!-- Data Analytics Training Card -->
@@ -139,7 +139,7 @@
             <li><strong>Predictive Modeling:</strong> Learn techniques for forecasting and trend analysis.</li>
             <li><strong>Business Applications:</strong> Apply analytics to real-world business scenarios.</li>
         </ul>
-        <button class="assest/contact.html">Contact Us</button>
+        <button class="buy-now" onclick="contact()">Contact US</button>
     </div>
   </div> 
 </section>
@@ -212,6 +212,9 @@
       menuBtn.addEventListener('click',()=>{
           navlinks.classList.toggle('mobile-menu')
       })
+      function contact() {
+        window.location.href = "assest/contact.html";
+      }
   </script> 
   </body>
 </html>
