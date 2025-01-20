@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MM Techwise | Contact Us</title>
     <link rel="stylesheet" href="../assest/css/styles.css" />
-    <link rel="shortcut icon" href="/assest/img/logo.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="../assest/img/logo.svg" type="image/x-icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
@@ -177,7 +177,7 @@
       <header class="header">
         <nav class="navbar">
           <p class="logo">
-            <img src="/assest/img/logo.svg" alt="Superslide Logo" class="logo-img" />
+            <img src="../assest/img/logo.svg" alt="Superslide Logo" class="logo-img" />
           </p>
           <input type="checkbox" id="menu-toggle" />
           <label for="menu-toggle" id="hamburger-btn">
@@ -248,7 +248,7 @@
             .then(function () {
               showModal();
               setTimeout(function() {
-                window.location.href = '/index.html'; // Redirect to home after 3 seconds
+                window.location.href = '../index.html'; // Redirect to home after 3 seconds
               }, 3000);
             }, function (error) {
               alert('Failed to send message: ' + JSON.stringify(error));
